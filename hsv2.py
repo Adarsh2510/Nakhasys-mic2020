@@ -187,10 +187,10 @@ def ChecKDisease():
     elif purple_percentage>yellow_percentage and purple_percentage>blue_percentage and purple_percentage>gray_percentage and purple_percentage>white_percentage and purple_percentage > red_percentage:
         result="purple"
         print(purple)
-    elif red_percentage>yellow_percentage and red_percentage>blue_percentage and red_percentage>purple_percentage and red_percentage>white_percentage and red_percentage>gray_perecentage :
+    elif red_percentage>yellow_percentage and red_percentage>blue_percentage and red_percentage>purple_percentage and red_percentage>white_percentage and red_percentage>gray_perecentage and red_percentage>20.00:
         result="red"
         print(result)
-    elif white_percentage>red_percentage and white_percentage>yellow_percentage and white_percentage>purple_percentage and white_percentage>blue_percentage and white_percentage>gray_percentage:
+    elif white_percentage>red_percentage and white_percentage>yellow_percentage and white_percentage>purple_percentage and white_percentage>blue_percentage and white_percentage>gray_percentage and white_percentage>20.00:
         result="white"
         print(result)
     else:
